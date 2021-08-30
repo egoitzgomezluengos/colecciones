@@ -17,7 +17,6 @@ public class Application
 		// colecciones de objeto alumno
 		// recorrer para mostrar datos del alumno
 
-		
 		Alumno alumno1 = new Alumno(4, "Perry", 7);
 		Alumno alumno2 = new Alumno(1, "Egoitz", 1 );
 		Alumno alumno3 = new Alumno(2, "Fran", 3);
