@@ -39,7 +39,7 @@ public class Alumno implements Comparable<Alumno>{
 	//otros metodos
 	@Override
 	public int hashCode() {
-		return Objects.hash(curso, nombre);
+		return Objects.hash(id);
 	}
 
 	@Override

@@ -19,8 +19,9 @@ public class Application
 
 		Alumno alumno1 = new Alumno(4, "Perry", 7);
 		Alumno alumno2 = new Alumno(1, "Egoitz", 1 );
-		Alumno alumno3 = new Alumno(2, "Fran", 3);
-		Alumno alumno4 = new Alumno(3, "Julen", 2);
+		Alumno alumno3 = new Alumno(3, "Fran", 1);
+		Alumno alumno4 = new Alumno(2, "Julen", 2);
+		Alumno alumno5 = new Alumno(2, "Julen", 2);
 		
 		System.out.println("1- recorrer en cualquier orden");
 		System.out.println("-------------------------------");
@@ -30,6 +31,7 @@ public class Application
 		sinOrden.add(alumno2);
 		sinOrden.add(alumno3);
 		sinOrden.add(alumno4);
+
 		
 	
 		for (Alumno al : sinOrden) {
@@ -46,6 +48,7 @@ public class Application
 		ordenInsercion.add(alumno3);
 		ordenInsercion.add(alumno4);
 		
+		
 		for (Alumno alInser : ordenInsercion) {
 			System.out.println(alInser.toString());
 		}
@@ -59,6 +62,7 @@ public class Application
 		ordenId.add(alumno2);
 		ordenId.add(alumno3);
 		ordenId.add(alumno4);
+		ordenId.add(alumno5);
 		
 		for (Alumno alId : ordenId) {
 			System.out.println(alId.toString());
@@ -72,6 +76,7 @@ public class Application
 		ordenCursoNombre.add(alumno2);
 		ordenCursoNombre.add(alumno3);
 		ordenCursoNombre.add(alumno4);
+		ordenCursoNombre.add(alumno5);
 		
 		for (Alumno alCursoNom : ordenCursoNombre) {
 			System.out.println(alCursoNom.toString());
